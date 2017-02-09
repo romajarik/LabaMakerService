@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LabaMakerModelStoreContainer" CdmEntityContainer="LabaMakerEntities">
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="LabaMakerModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="task_link" ColumnName="task_link" />
+          <ScalarProperty Name="solutio_link" ColumnName="solutio_link" />
+          <ScalarProperty Name="paid" ColumnName="paid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="LabaMakerModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="payment_acc" ColumnName="payment_acc" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="full_name" ColumnName="full_name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
