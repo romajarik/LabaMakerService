@@ -90,4 +90,3 @@ c:\users\roman\documents\visual studio 2015\Projects\LabaMaker2\LabaMaker2\obj\D
 c:\users\roman\documents\visual studio 2015\Projects\LabaMaker2\LabaMaker2\bin\System.Web.Cors.dll
 c:\users\roman\documents\visual studio 2015\Projects\LabaMaker2\LabaMaker2\bin\System.Web.Http.Cors.dll
 c:\users\roman\documents\visual studio 2015\Projects\LabaMaker2\LabaMaker2\bin\System.Web.Http.Cors.xml
-C:\Users\Roman\Documents\Visual Studio 2015\Projects\LabaMaker2\LabaMaker2\obj\Debug\LabaMaker2.csprojResolveAssemblyReference.cache
